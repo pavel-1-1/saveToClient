@@ -1,0 +1,10 @@
+spring:
+  config:
+    import: optional:file:.env[.properties]
+
+server:
+  port: ${SERVER_PORT}
+  address: ${SERVER_HOST}
+
+dir:
+  path: ${FILE_PATH}
